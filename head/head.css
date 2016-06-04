@@ -1,0 +1,36 @@
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.header-logo-invertocat {
+    float: left;
+    margin-right: 10px;
+    margin-left: -2px;
+    color: #333;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
