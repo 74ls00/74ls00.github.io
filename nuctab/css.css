@@ -1,0 +1,35 @@
+div{margin:0px;padding:0px;}
+
+body{
+			margin-right:100000px;
+			
+			/*width:2000px;*/
+		
+		
+}
+
+table{
+	background-color:green;
+	
+
+}
+
+.obrezka{
+	background-color:red;
+
+	
+	margin-left: -1095px;
+	/*1354*/
+	margin-top: -330px;
+	/*margin-right: 66500px;*/
+
+
+	
+}
+
+.povorot{
+	 -moz-transform: rotate(45deg);  /* Firefox */
+	 background-color:blue;
+	 
+/*width:1000px;*/
+}
