@@ -701,3 +701,13 @@ a.nivo-prevNav {
 }
 
 #templatemo_cr_bar a { color: #888 }
+
+
+#fmenu {
+	width: 964px;
+	margin: 40px 0 0 0 ;
+	/*margin: 40px auto 0;
+	padding: 0 3px;*/
+	padding: -1px 3px 0 3px;
+	background: red;
+}
