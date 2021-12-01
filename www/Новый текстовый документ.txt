@@ -1,1 +1,0 @@
-<iframe id="fmenu" src="../menu/mmenu.html" scrolling="no" frameborder="0"></iframe>

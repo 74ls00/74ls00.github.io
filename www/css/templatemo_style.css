@@ -1,5 +1,7 @@
-/*
-Credit: http://www.templatemo.com
+
+/* 
+Green Jelly Template 
+http://www.templatemo.com/preview/templatemo_343_green_jelly 
 */
 
 body {
@@ -134,7 +136,8 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 
 #templatemo_wrapper {
 	width: 964px;
-	margin: 40px auto 0;
+/*	margin: 40px auto 0; */
+	margin: 0px auto 0; 
 	padding: 0 3px;
 }
 
@@ -203,8 +206,23 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 #templatemo_menu {
 	width: 100%;
 	height: 47px;
-	background: url(../images/templatemo_menu_bg.jpg) no-repeat center
+/*	background: url(../images/templatemo_menu_bg.jpg) no-repeat center */
+background: url(images/templatemo_menu_bg.jpg) no-repeat center
+	
+	
 }
+
+#menuf li {position:relative; float:left; }
+
+#menuf li ul{display:none; position:absolute; left:0; top:100%;}
+
+#menuf li:hover{display:block;}
+
+/* https://www.cyberforum.ru/html/thread523966.html */
+
+
+
+
 
 #templatemo_main {
 	padding: 30px 22px;
@@ -213,7 +231,10 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 
 #templatemo_slider_wrapper {
 	padding: 0 2px;
-	background: url(../images/templatemo_wrapper.jpg) repeat-y center	
+	background: url(../images/templatemo_wrapper.jpg) repeat-y center	;
+/*	margin-top: -10px;
+	z-index: -100; */
+	
 }
 
 #slider {
@@ -700,3 +721,17 @@ a.nivo-prevNav {
 }
 
 #templatemo_cr_bar a { color: #888 }
+
+
+
+#fmenu { 
+width:100%;
+height:200px; /* 100%*/ /* 46px*/
+/* padding:0px;margin:0px; */
+ z-index: 100;
+
+}
+
+
+
+
